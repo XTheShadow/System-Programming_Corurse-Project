@@ -6,11 +6,11 @@ This project is a **system-level application** written in **C++** that implement
 ---
 
 ## 📌 Features  
-✔️ **Efficient text-to-speech conversion**  
-✔️ **Multithreading with dynamic thread allocation**  
-✔️ **Thread pool management** for optimized concurrency  
-✔️ **Work-stealing algorithm** for load balancing  
-✔️ **Logging system** for debugging and analysis  
+ **Efficient text-to-speech conversion**  
+ **Multithreading with dynamic thread allocation**  
+ **Thread pool management** for optimized concurrency  
+ **Work-stealing algorithm** for load balancing  
+ **Logging system** for debugging and analysis  
 
 ---
 
@@ -28,22 +28,22 @@ By integrating **multithreading**, this project **efficiently processes large vo
 ## 🛠️ Installation  
 
 ### ✅ Prerequisites  
-- 🖥️ **C++ compiler** (GCC, Clang, or MSVC)  
-- 🧵 **POSIX Threads (pthreads)** (for Linux/macOS users)  
+-  **C++ compiler** (GCC, Clang, or MSVC)  
+-  **POSIX Threads (pthreads)** (for Linux/macOS users)  
 
 ### 🚀 Setup & Installation  
-1️⃣ **Clone the repository**  
+1️. **Clone the repository**  
    ```sh
    git clone https://github.com/XTheShadow/SystemProgrammingProject.git
    cd SystemProgrammingProject
    ```
    
-2️⃣ **Compile the source files**  
+2️. **Compile the source files**  
    ```sh
    g++ -o tts_synthesizer v1.cpp -O3 -pthread
    ```
 
-3️⃣ **Run the executable**  
+3️. **Run the executable**  
    ```sh
    ./tts_synthesizer
    ```
@@ -51,16 +51,16 @@ By integrating **multithreading**, this project **efficiently processes large vo
 ---
 
 ## 🚀 Usage  
-▶️ **Execute the compiled program** from the terminal  
-💬 **Input text** to convert it into speech  
-📁 **Logs and output files** are stored in the designated directories  
+ **Execute the compiled program** from the terminal  
+ **Input text** to convert it into speech  
+ **Logs and output files** are stored in the designated directories  
 
 ---
 
 ## 📚 Dependencies  
-🔹 **C++ Standard Library**  
-🔹 **POSIX system calls** (for Linux/macOS)  
-🔹 **pthreads** (for multi-threading support)  
+ * C++ Standard Library
+ * POSIX system calls** (for Linux/macOS)  
+ * pthreads** (for multi-threading support)  
 
 ---
 
